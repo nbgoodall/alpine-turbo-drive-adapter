@@ -110,7 +110,7 @@ class Bridge {
       });
     };
 
-    document.addEventListener('turbo:load', initCallback);
+    document.addEventListener('turbo:render', initCallback);
     document.addEventListener('turbolinks:load', initCallback);
     document.addEventListener('turbo:before-render', beforeRenderCallback);
     document.addEventListener('turbolinks:before-render', beforeRenderCallback);
